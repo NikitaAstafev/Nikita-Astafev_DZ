@@ -1,0 +1,60 @@
+body {
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header{
+    background-color: white;
+    text-align: center;
+    margin: 0 0 20px 0;
+    border-radius: 10px;
+}
+.left_bar{
+    float:left;
+    width: 40%;
+    height: auto;
+    text-align: center;
+    margin: 0 1% 0 0;
+}
+.right_bar{
+    float:left;
+    width: 59%;
+    height: 100%;
+    text-align: center;
+}
+.right_bar_t{
+    background: white;
+    float:left;
+    width: 100%;
+    height: auto;
+    font-size: 50px;
+    border-radius: 10px;
+    margin: 0 0 1% 0;
+    padding: 1% 0;
+}
+.right_bar_l{
+    background: white;
+    float:left;
+    width: 47.5%;
+    height: 100%;
+    font-size: 35px;
+    border-radius: 10px;
+    padding: 1%;
+    margin: 0 1% 0 0;
+}
+.right_bar_r{
+    background: white;
+    float:left;
+    width: 47.5%;
+    height: auto;
+    font-size: 35px;
+    border-radius: 10px;
+    padding: 1%;
+}
+img {
+    max-width:100%;
+    max-height:100%;
+    border-radius: 10px;
+}
