@@ -1,0 +1,53 @@
+body{
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+table, td{
+    margin-top: 10%;
+    background: white;
+    border: 1px solid black;
+    border-collapse: separate;
+    border-spacing: 0;
+    text-align: center;
+    font-weight: bold;
+}
+td{
+    height: 50px;
+    width: 100px;
+}
+caption{
+    font-size: 25px;
+}
+.element1, .element2, .element3{
+    width:100%;
+    height:100%;
+    -moz-transition: all 2s ease-out;
+    -o-transition: all 2s ease-out;
+    -webkit-transition: all 2s ease-out;
+}
+.element1:hover, .element2:hover, .element3:hover{
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -o-transform: scale(2);
+    border: 1px solid black;
+}
+.element1{
+    background: indianred;
+}
+.element2{
+    background: yellow;
+}
+.element3{
+    background: skyblue;
+}
+.symbol, .name, .number2, .weight2{
+    float: left;
+}
+.number, .weight, .symbol2, .name2{
+    float: right;
+}
+.weight, .weight2{
+    font-weight: normal;
+}
