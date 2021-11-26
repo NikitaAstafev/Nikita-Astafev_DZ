@@ -1,8 +1,16 @@
+<?php
+date_default_timezone_set('Asia/Yekaterinburg');
+$hour=date('H');
+if (($hour>=8) && ($hour<=19))
+    echo $style = '../css/styles.css';
+else
+    echo $style = '../css/style-night.css';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href='<php echo $style; ?/>' type="text/css" media='all'>
     <link rel="icon" href="../img/logo-fav.png" type="image/png">
     <script src="https://use.fontawesome.com/1630570716.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e5ec03f-5ff3-4e30-ae79-f2961b5ef511" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="9e5ec03f-5ff3-4e30-ae79-f2961b5ef511" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +21,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="20ygYyjIKgox68WyTNNXU2a39AZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -73,6 +70,11 @@
       <workItem from="1637546150338" duration="582000" />
       <workItem from="1637705360149" duration="14460000" />
       <workItem from="1637720238462" duration="618000" />
+      <workItem from="1637848079310" duration="8043000" />
+      <workItem from="1637860263801" duration="14000" />
+      <workItem from="1637863369917" duration="6000" />
+      <workItem from="1637865879806" duration="646000" />
+      <workItem from="1637866932333" duration="1312000" />
     </task>
     <servers />
   </component>

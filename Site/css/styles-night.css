@@ -1,5 +1,5 @@
 body{
-    background: #edeef0;
+    background: #222226;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -9,7 +9,7 @@ body{
 }
 @font-face {
     font-family: MyFont;
-    src: url(../font/SFUIDisplay-Light.ttf)
+    src: url(../font/SFUIDisplay-Light.ttf);
 }
 /*HEADER-MENU*/
 header{
@@ -39,9 +39,10 @@ header{
     margin: auto;
     width: 90%;
     min-height: 100vh;
-    background: white;
+    background: #333336;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
+    color: ghostwhite;
 }
 .about-me{
     border-radius: 10px;
@@ -56,14 +57,14 @@ header{
       "pho lt rt";
 }
 .top{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid ghostwhite;
     font-weight: bold;
     font-size: 20px;
     grid-area: tp;
 }
 .left{
     padding: 0 5px 0 0;
-    border-right: 1px solid black;
+    border-right: 1px solid ghostwhite;
     grid-area: lt;
     font-size: 20px;
 }
@@ -95,7 +96,7 @@ img{
     text-align: center;
     font-weight: bold;
     text-transform: uppercase;
-    background: #e5ebf1;
+    background: #444446;
     border-radius: 10px;
 }
 .flex-item{
@@ -177,11 +178,11 @@ footer{
       "rt";
     }
     .left{
-        border-right: 0px solid black;
-        border-bottom: 1px solid black;
+        border-right: 0px solid ghostwhite;
+        border-bottom: 1px solid ghostwhite;
     }
     .right{
-        border-bottom: 1px solid black;
+        border-bottom: 1px solid ghostwhite;
     }
     .container-flex{
         flex-wrap: wrap;
@@ -200,11 +201,11 @@ footer{
       "rt";
     }
     .left{
-        border-right: 0px solid black;
-        border-bottom: 1px solid black;
+        border-right: 0px solid ghostwhite;
+        border-bottom: 1px solid ghostwhite;
     }
     .right{
-        border-bottom: 1px solid black;
+        border-bottom: 1px solid ghostwhite;
     }
     .container-flex{
         flex-wrap: wrap;
