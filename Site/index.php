@@ -1,13 +1,4 @@
-<?
-date_default_timezone_set('Asia/Yekaterinburg');
-$hour=date('H');
-if (($hour>=8) && ($hour<20)){
-    $style = '/css/styles.css';
-    }
-else{
-    $style = '/css/styles-night.css';
-}
-?>
+<? require_once 'components/switch-day-night.php' ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,14 +9,9 @@ else{
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Site</title>
 </head>
-<header>
-    <div></div>
-    <div align="center">
-        <a href="/html/table.html" class="logo"></a>
-    </div>
-    <div></div>
-</header>
+    <? require_once 'components/header.php' ?>
 <body>
+
     <div class="main_content">
         <div class="about-me">
             <div class="photo"><img src="/img/photo.jpg" alt=" 404 photo" width="350"></div>
@@ -76,18 +62,5 @@ else{
         </section>
     </div>
 </body>
-<footer>
-    <div class="footer-main">
-        <div></div>
-        <div></div>
-        <div class="social-network">
-            <ul class="social-icons">
-                <li><a href="https://vk.com/"><i class="fa fa-vk"></i></a></li>
-                <li><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
-                <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
-            </ul>
-        </div>
-    </div>
-</footer>
+<? require_once 'components/footer.php' ?>
 </html>

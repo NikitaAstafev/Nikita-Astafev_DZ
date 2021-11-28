@@ -11,7 +11,7 @@ body{
     font-family: MyFont;
     src: url(../font/SFUIDisplay-Light.ttf)
 }
-/*HEADER-MENU*/
+/*HEADER & MENU*/
 header{
     width: 100%;
     background: linear-gradient(to right, #212121, black, #212121);
@@ -20,9 +20,46 @@ header{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
     position: sticky;
     top: 0;
+    grid-auto-columns: 1fr;
+    grid-template-areas:
+      "ml mc mr";
+}
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top:5px;
+}
+.menu a {
+    text-decoration: none;
+    color: ghostwhite;
+    padding:10px;
+    border-radius:5px;
+    -moz-transition: all 0.3s 0.01s ease;
+    -o-transition: all 0.3s 0.01s ease;
+    -webkit-transition: all 0.3s 0.01s ease;
+}
+.menu a:hover {
+    background:ghostwhite;
+    color: #212121;
+}
+.menu li {
+    float:left;
+    margin-right:5px;
+}
+.menu-left{
+    margin: auto;
+    grid-area: ml;
+}
+.menu-center{
+    margin: auto;
+    grid-area: mc;
+}
+.menu-right{
+    margin: auto;
+    grid-area: mr;
 }
 .logo{
     background-image: url(../img/logo.png);

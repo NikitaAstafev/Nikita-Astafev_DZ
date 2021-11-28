@@ -1,13 +1,20 @@
+<? require_once 'components/switch-day-night.php' ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../css/table-styles.css">
+    <link rel="stylesheet" href="css/table-styles.css">
+    <link rel='stylesheet' href='<? echo $style; ?>' type='text/css' media='all'>
+    <link rel="icon" href="/img/logo-fav.png" type="image/png">
+    <script src="https://use.fontawesome.com/1630570716.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Таблица Менделеева</title>
 </head>
+<? require_once 'components/header.php' ?>
 <body>
+<div class="main_content">
     <table align="center">
-        <caption>Таблица Менделеева</caption>
+        <div class="caption-table">Таблица Менделеева</div>
         <tr>
             <td rowspan="2">Периоды</td>
             <td rowspan="2">Ряды</td>
@@ -195,5 +202,7 @@
             </td>
         </tr>
     </table>
+</div>
 </body>
+<? require_once 'components/footer.php' ?>
 </html>

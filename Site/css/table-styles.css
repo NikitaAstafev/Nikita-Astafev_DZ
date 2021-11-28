@@ -1,24 +1,23 @@
-body{
-    background-image: url(../img/background.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
+
 table, td{
-    margin-top: 10%;
     background: white;
     border: 1px solid black;
     border-collapse: separate;
     border-spacing: 0;
     text-align: center;
     font-weight: bold;
+    color: black;
 }
 td{
     height: 50px;
     width: 100px;
 }
-caption{
-    font-size: 25px;
+.caption-table{
+    margin-bottom: 2%;
+    margin-top: 10%;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
 }
 .element1, .element2, .element3{
     width:100%;
