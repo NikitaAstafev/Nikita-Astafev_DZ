@@ -1,9 +1,7 @@
 <header>
     <div class="menu-left">
         <ul class="menu">
-            <div class="test1">
             <li><a href="/table.php">Таблица</a></li>
-            </div>
         </ul>
     </div>
     <div class="menu-center">
