@@ -10,7 +10,7 @@
     </div>
     <div class="menu-right">
         <ul class="menu">
-            <li><a href="clone-index.php">ДЗ 29.11.21 </a></li>
+            <li><a href="clone-index.php">ДЗ 01.12.21 </a></li>
         </ul>
     </div>
 </header>

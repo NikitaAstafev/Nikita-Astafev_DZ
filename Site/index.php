@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel='stylesheet' href='<? echo $style; ?>' type='text/css' media='all'>
+    <link rel='stylesheet' href='<?echo theme($hour); ?>' type='text/css' media='all'>
     <link rel="icon" href="img/logo-fav.png" type="image/png">
     <script src="https://use.fontawesome.com/1630570716.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
