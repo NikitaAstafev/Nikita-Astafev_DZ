@@ -121,6 +121,51 @@ img{
     max-height:100%;
     border-radius: 10px;
 }
+/*AUTHORIZATION & REGISTRATION*/
+.auth-reg{
+    margin:auto;
+    vertical-align:middle;
+    text-align: center;
+    font-size:25px;
+}
+.child-auth-reg{
+    border-radius: 10px;
+    color: ghostwhite;
+    background: black;
+    width:350px;
+    border:3px solid darkgrey;
+    margin:auto;
+    font-family: MyFont;
+}
+.auth-reg a{
+    text-decoration: none;
+    color: dodgerblue;
+}
+.auth-reg a:hover{
+    text-decoration: underline;
+    color: deepskyblue;
+}
+.custom_input {
+    font-size: 20px;
+    color: ghostwhite;
+    width: 70%;
+    height: 25px;
+    background-color: #222226;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+.custom_submit {
+    width: 70%;
+    height: 25px;
+    background-color: #444446;
+    border: 0;
+    color: ghostwhite;
+    font-size: 15px;
+}
+.custom_submit:hover {
+    border: 2px solid ghostwhite;
+    border-radius: 3px;
+}
 /*flex homework*/
 .container-flex{
     width: 100%;

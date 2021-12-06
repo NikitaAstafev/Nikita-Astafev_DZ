@@ -3,14 +3,16 @@
         <ul class="menu">
             <li><a href="table.php">Таблица</a></li>
             <li><a href="Homework.php">Задачи PHP</a></li>
+            <li><a href="clone-index.php">ДЗ 01.12.21 </a></li>
         </ul>
     </div>
     <div class="menu-center">
         <a href="index.php" class="logo"></a>
     </div>
-    <div class="menu-right">
+    <div class="menu-right" style="justify-items: right">
         <ul class="menu">
-            <li><a href="clone-index.php">ДЗ 01.12.21 </a></li>
+            <li><a href="authorization.php">Авторизация</a></li>
+            <li><a href="anketa.php">Анкета</a></li>
         </ul>
     </div>
 </header>
