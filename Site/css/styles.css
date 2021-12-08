@@ -166,6 +166,17 @@ img{
     border: 2px solid ghostwhite;
     border-radius: 3px;
 }
+.custom_button{
+     width: 45%;
+     background: none;
+     border: 0;
+     cursor:pointer;
+ }
+.custom_button:hover {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
 /*flex homework*/
 .container-flex{
     width: 100%;
