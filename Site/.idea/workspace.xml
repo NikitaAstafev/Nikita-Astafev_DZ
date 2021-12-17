@@ -33,7 +33,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../auth" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -110,6 +110,13 @@
       <workItem from="1638928896046" duration="16000" />
       <workItem from="1638929461641" duration="2443000" />
       <workItem from="1638933689674" duration="22000" />
+      <workItem from="1638975869461" duration="25000" />
+      <workItem from="1639047614045" duration="1188000" />
+      <workItem from="1639187095961" duration="91000" />
+      <workItem from="1639578187379" duration="52000" />
+      <workItem from="1639676965710" duration="57000" />
+      <workItem from="1639677435073" duration="256000" />
+      <workItem from="1639692345032" duration="9452000" />
     </task>
     <servers />
   </component>

@@ -1,3 +1,9 @@
+<?
+session_start();
+if ($_SESSION['user']){
+    header('Location: account.php');
+}
+?>
 <? require_once 'components/switch-day-night.php' ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -15,35 +21,19 @@
 <div style="height: 100vh;">
     <div class="auth-reg">
         <div class="child-auth-reg">
-            <form  method="post">
+            <form action="components/reg.php" method="post">
                 <p>РЕГИСТРАЦИЯ</p>
-                <p><input type="text" name="name" placeholder="Логин" style="font-family: MyFont;" class="custom_input"></p>
-                <p><input type="password" name="pass" placeholder="Пароль" style="font-family: MyFont;" class="custom_input"></p>
-                <p><input type="submit" value="Зарегистрироваться" style="font-family: MyFont;" class="custom_submit"></p>
+                <p><input type="text" name="login" placeholder="Введите логин" style="font-family: MyFont;" class="custom_input"></p>
+                <p><input type="password" name="password" placeholder="Введите пароль" style="font-family: MyFont;" class="custom_input"></p>
+                <p><input type="password" name="password_confirm" placeholder="Подтвердите пароль" style="font-family: MyFont;" class="custom_input"><p>
+                <p> <button type="submit" class="custom_submit">Зарегистрироваться</button></p>
+<!--                <p><input type="submit" value="Зарегистрироваться" style="font-family: MyFont;" class="custom_submit"></p>-->
                 <p>Уже есть учетная запись? <a href="authorization.php">Авторизация</a></p>
-                <?php
-                $_POST['name'] = trim($_POST['name']);
-                $_POST['pass'] = trim($_POST['pass']);
-                if(empty($_POST['name'])) exit();
-                if(empty($_POST['name'])) exit('<p>Поле "Логин" не заполнено<p>');
-                if(empty($_POST['pass'])) exit('<p>Поле "Пароль" не заполнено<p>');
-                $filename = "users.txt";
-                $arr = file($filename);
-                foreach($arr as $line)
-                {
-                    $data = explode("--",$line);
-                    $temp[] = $data[0];
+                <?
+                if ($_SESSION['message']){
+                    echo '<p>' . $_SESSION['message'] .'</p>';
                 }
-                if(in_array($_POST['name'], $temp))
-                {
-                    exit("<p>Пользователь с таким именем уже зарегистрирован<p>");
-                }
-                $fd = fopen($filename, "a");
-                if(!$fd) exit("Ошибка при открытии файла данных");
-                $str = $_POST['name']."--".
-                    md5($_POST['pass'])."--"."\r\n";
-                fwrite($fd,$str);
-                fclose($fd);
+                unset($_SESSION['message']);
                 ?>
             </form>
         </div>
