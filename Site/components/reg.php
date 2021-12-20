@@ -1,6 +1,8 @@
 <?php
 session_start();
 require_once 'connect.php';
+$db_con = new connect();
+$connect = $db_con->db_connect();
 $login = $_POST['login'];
 $password = $_POST['password'];
 $password_confirm = $_POST['password_confirm'];

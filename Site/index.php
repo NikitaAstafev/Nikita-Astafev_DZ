@@ -9,11 +9,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brook Site</title>
 </head>
-<? require_once 'components/header.php' ?>
 <body>
+<? require_once 'components/header.php' ?>
     <div class="main_content">
         <div class="about-me">
-            <div class="photo"><img src="img/photo.jpg" alt=" 404 photo" width="350"></div>
+            <div class="photo"><img src="img/photo.jpg" alt="404 photo" width="350"></div>
             <div class="top">Астафьев Никита Игоревич</div>
             <div class="left">
                 Обо мне:
@@ -41,7 +41,7 @@
                 Сложностей пока ни с чем не возникло и надеюсь в дальнейшем их не будет!
             </div>
         </div>
-        <section class="container-flex">
+        <div class="container-flex">
             <div class="anim">
                 <div class="flex-item"><img src="img/navi.png" alt="404"></div>
                 <div class="flex-item">NAVI</div>
@@ -58,8 +58,8 @@
                 <div class="flex-item"><img src="img/heroic.png" alt="404"></div>
                 <div class="flex-item">HEROIC</div>
             </div>
-        </section>
+        </div>
     </div>
-</body>
 <? require_once 'components/footer.php' ?>
+</body>
 </html>
